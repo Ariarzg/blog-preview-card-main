@@ -49,7 +49,7 @@ body {
   border-radius: 10px;
 }
 
-.card h2 {
+.card .learning-state {
   background: #f4d04e;
   width: fit-content;
   margin-top: 20px;
@@ -72,7 +72,7 @@ body {
   margin-top: 15px;
 }
 
-.card p {
+.card .description {
   width: 350px;
   font-size: 16px;
   font-weight: 500;
@@ -93,7 +93,7 @@ body {
   width: 34px;
 }
 
-.author h3 {
+.author h2 {
   font-weight: 800;
   font-size: 16px;
   margin-left: 10px;
@@ -107,7 +107,7 @@ body {
     width: 280px;
     font-size: 20px;
   }
-  .card p {
+  .card .description {
     width: 280px;
     font-size: 14px;
   }
@@ -116,7 +116,7 @@ body {
     font-size: 13px;
   }
 
-  .author h3 {
+  .author h2 {
     font-size: 14px;
   }
 }
