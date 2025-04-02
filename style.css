@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Figtree";
+  src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Figtree", sans-serif;
+  color: #121212;
+}
+
+body {
+  background: #f4d04e;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #121212;
+  box-shadow: 10px 10px black;
+}
+
+.thumbnail {
+  width: 350px;
+  border-radius: 10px;
+}
+
+.card h2 {
+  background: #f4d04e;
+  width: fit-content;
+  margin-top: 20px;
+  padding: 6px 12px;
+  font-weight: 800;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.card .published-date {
+  margin-top: 15px;
+  font-weight: 500px;
+  font-size: 14px;
+}
+
+.card h1 {
+  width: 350px;
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 15px;
+}
+
+.card p {
+  width: 350px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #6b6b6b;
+  margin-top: 15px;
+}
+
+.author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.author .author-avatar {
+  width: 34px;
+}
+
+.author h3 {
+  font-weight: 800;
+  font-size: 16px;
+  margin-left: 10px;
+}
