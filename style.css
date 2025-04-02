@@ -54,14 +54,14 @@ body {
   width: fit-content;
   margin-top: 20px;
   padding: 6px 12px;
-  font-weight: 800;
+  font-weight: 900;
   font-size: 14px;
   border-radius: 5px;
 }
 
 .card .published-date {
   margin-top: 15px;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 14px;
 }
 
@@ -76,7 +76,7 @@ body {
   width: 350px;
   font-size: 16px;
   font-weight: 500;
-  line-height: 22px;
+  line-height: 26px;
   color: #6b6b6b;
   margin-top: 15px;
 }
