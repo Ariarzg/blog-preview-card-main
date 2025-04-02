@@ -26,11 +26,22 @@ body {
 .card {
   background: #ffffff;
   display: flex;
+  cursor: pointer;
   flex-direction: column;
   padding: 20px;
   border-radius: 20px;
   border: 1px solid #121212;
   box-shadow: 10px 10px black;
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: translate(10px, 10px);
+  box-shadow: none;
+}
+
+.card:active h1 {
+  color: #f4d04e;
 }
 
 .thumbnail {
