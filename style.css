@@ -87,3 +87,25 @@ body {
   font-size: 16px;
   margin-left: 10px;
 }
+
+@media (max-width: 450px) {
+  .thumbnail {
+    width: 280px;
+  }
+  .card h1 {
+    width: 280px;
+    font-size: 20px;
+  }
+  .card p {
+    width: 280px;
+    font-size: 14px;
+  }
+
+  .card .published-date {
+    font-size: 13px;
+  }
+
+  .author h3 {
+    font-size: 14px;
+  }
+}
