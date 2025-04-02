@@ -11,34 +11,33 @@
       href="./assets/images/favicon-32x32.png"
     />
 
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
 
     <title>Frontend Mentor | Blog preview card</title>
   </head>
   <body>
-    <main class="container">
-      <div class="card">
+    <main class="card">
+      <img
+        src="assets/images/illustration-article.svg"
+        alt="article"
+        class="Thumbnail of this course"
+      />
+      <p class="learning-state">Learning</p>
+      <p class="published-date">Published 21 Dec 2023</p>
+      <h2 class="title">HTML &#38; CSS foundations</h2>
+      <p class="description">
+        These languages are the backbone of every websites, defining structure,
+        content, and presentation.
+      </p>
+      <section class="author">
         <img
-          src="assets/images/illustration-article.svg"
-          alt="article"
-          class="thumbnail"
+          src="assets/images/image-avatar.webp"
+          alt="avatar"
+          class="Author's avatar"
         />
-        <p class="learning-state">Learning</p>
-        <p class="published-date">Published 21 Dec 2023</p>
-        <h1>HTML &#38; CSS foundations</h1>
-        <p class="description">
-          These languages are the backbone of every websites, defining
-          structure, content, and presentation.
-        </p>
-        <footer class="author">
-          <img
-            src="assets/images/image-avatar.webp"
-            alt="avatar"
-            class="author-avatar"
-          />
-          <h2>Greg Hooper</h2>
-        </footer>
-      </div>
+        <h3 class="author-name">Greg Hooper</h3>
+      </section>
     </main>
   </body>
 </html>

@@ -3,36 +3,28 @@
   src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Figtree", sans-serif;
-  color: #121212;
-}
-
 body {
   background: #f4d04e;
-}
-
-.container {
-  min-height: 100vh;
-  width: 100%;
+  font-family: "Figtree", sans-serif;
+  color: #121212;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 1rem;
 }
 
 .card {
   background: #ffffff;
   display: flex;
-  cursor: pointer;
   flex-direction: column;
-  padding: 20px;
-  border-radius: 20px;
-  border: 1px solid #121212;
-  box-shadow: 10px 10px black;
+  cursor: pointer;
+  padding: 1.5rem;
+  border-radius: 1.2rem;
+  border: 2px solid #121212;
+  box-shadow: 0.7rem 0.7rem black;
   transition: 0.2s;
+  max-width: 24rem;
+  gap: 0.9rem;
 }
 
 .card:hover {
@@ -40,83 +32,55 @@ body {
   box-shadow: none;
 }
 
-.card:active h1 {
+.card:active .title {
   color: #f4d04e;
 }
 
 .thumbnail {
-  width: 350px;
-  border-radius: 10px;
+  border-radius: 0.8rem;
 }
 
-.card .learning-state {
+.learning-state {
   background: #f4d04e;
   width: fit-content;
-  margin-top: 20px;
-  padding: 6px 12px;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
   font-weight: 900;
-  font-size: 14px;
-  border-radius: 5px;
+  font-size: 0.9rem;
+  border-radius: 0.4rem;
 }
 
-.card .published-date {
-  margin-top: 15px;
+.published-date {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.9rem;
 }
 
-.card h1 {
-  width: 350px;
-  font-size: 24px;
+.title {
+  font-size: 1.5rem;
   font-weight: 800;
-  margin-top: 15px;
 }
 
-.card .description {
-  width: 350px;
-  font-size: 16px;
+.description {
+  font-size: 1rem;
   font-weight: 500;
-  line-height: 26px;
   color: #6b6b6b;
-  margin-top: 15px;
 }
 
 .author {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
-  margin-top: 20px;
+  justify-content: start;
+
+  gap: 1rem;
 }
 
-.author .author-avatar {
-  width: 34px;
+.author-avatar {
+  border-radius: 50%;
+  max-height: 3rem;
 }
 
-.author h2 {
+.author-name {
   font-weight: 800;
-  font-size: 16px;
-  margin-left: 10px;
-}
-
-@media (max-width: 450px) {
-  .thumbnail {
-    width: 280px;
-  }
-  .card h1 {
-    width: 280px;
-    font-size: 20px;
-  }
-  .card .description {
-    width: 280px;
-    font-size: 14px;
-  }
-
-  .card .published-date {
-    font-size: 13px;
-  }
-
-  .author h2 {
-    font-size: 14px;
-  }
+  font-size: 1rem;
 }
