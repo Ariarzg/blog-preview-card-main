@@ -46,41 +46,39 @@ body {
   margin-top: 0.5rem;
   padding: 0.5rem 1rem;
   font-weight: 900;
-  font-size: 0.9rem;
+  font-size: clamp(0.7rem, 3.5vw, 0.9rem);
   border-radius: 0.4rem;
 }
 
 .published-date {
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: clamp(0.7rem, 3.5vw, 0.9rem);
 }
 
 .title {
-  font-size: 1.5rem;
+  font-size: clamp(1.15rem, 5.75vw, 1.5rem);
   font-weight: 800;
 }
 
 .description {
-  font-size: 1rem;
+  font-size: clamp(0.8rem, 3.85vw, 1rem);
   font-weight: 500;
   color: #6b6b6b;
 }
 
 .author {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: start;
 
   gap: 1rem;
 }
 
-.author-avatar {
+.avatar {
   border-radius: 50%;
-  max-height: 3rem;
+  max-height: 2rem;
 }
 
 .author-name {
   font-weight: 800;
-  font-size: 1rem;
+  font-size: clamp(0.8rem, 3.85vw, 1rem);
 }
